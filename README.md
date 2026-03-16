@@ -1,27 +1,23 @@
-# Analisi statistica sull’ascolto musicale e la salute mentale
+# Statistical Analysis on Music Listening and Mental Health
 
-Questo progetto, svolto come parte del corso universitario di Data Mining, analizza la relazione tra abitudini musicali e variabili legate al benessere mentale, utilizzando modelli statistici lineari e logistici.
+This project, carried out as part of an undergraduate university Data Mining course, analyzes the relationship between music listening habits and mental well-being variables, using linear and logistic statistical models.
 
-##  Contenuto della repository
+## Repository Contents
 
-- `Bachiorri_Barrow_Mezzanzanica_Saccardo_1MOD copia.r`: script R per la modellazione lineare dell’ascolto musicale (target: ore di ascolto).
-- `Bachiorri_Barrow_Mezzanzanica_Saccardo_2MOD copia.R`: script R per la modellazione logistica (target: effetti percepiti della musica).
-- `Bachiorri_Barrow_Mezzanzanica_Saccardo_1MOD.pdf` & `2MOD.pdf`: output completi dei modelli con grafici e test diagnostici.
-- `Bachiorri_Barrow_Mezzanzanica_Saccardo.Rdata`: dataset contenente le osservazioni preprocessate e pronte per la modellazione.
+- `Bachiorri_Barrow_Mezzanzanica_Saccardo_1MOD copia.r`: R script for linear modeling of music listening (target: listening hours).
+- `Bachiorri_Barrow_Mezzanzanica_Saccardo_2MOD copia.R`: R script for logistic modeling (target: perceived effects of music).
+- `Bachiorri_Barrow_Mezzanzanica_Saccardo_1MOD.pdf` & `2MOD.pdf`: complete model outputs with plots and diagnostic tests.
+- `Bachiorri_Barrow_Mezzanzanica_Saccardo.Rdata`: dataset containing preprocessed observations ready for modeling.
 
-##  Obiettivo
+## Objective
 
-Studiare l’impatto di variabili come genere musicale preferito, ore di ascolto, e attività durante l’ascolto, su indicatori di salute mentale (ansia, depressione, insonnia, OCD), mediante:
+To study the impact of variables such as preferred music genre, listening hours, and activities performed while listening, on mental health indicators (anxiety, depression, insomnia, OCD), through:
 
-- **Regressione lineare** (con trasformazioni Box-Cox e riduzione della multicollinearità)
-- **Regressione logistica** (con gestione di separation e selezione delle variabili tramite AIC e VIF)
+- **Linear regression** (with Box-Cox transformations and multicollinearity reduction)
+- **Logistic regression** (with separation handling and variable selection via AIC and VIF)
 
-##  Pacchetti principali usati
+## Main Packages Used
 
-- `mice`, `VIM` – gestione e visualizzazione dei missing values  
-- `car`, `mctest` – diagnostica e VIF
-- `lmtest`, `gam`, `factorMerger` – test diagnostici e trasformazione di variabili categoriche
-
-## Autori
-
-Nicolò Bachiorri, Emma Barrow, Chiara Mezzanzanica, Emanuele Saccardo
+- `mice`, `VIM` – missing value handling and visualization
+- `car`, `mctest` – diagnostics and VIF
+- `lmtest`, `gam`, `factorMerger` – diagnostic tests and categorical variable transformation
